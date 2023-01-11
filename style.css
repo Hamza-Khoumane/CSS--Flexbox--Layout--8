@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 10px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+section {
+  width: 30rem;
+  /* You shoudn't use this trick in your real project to center something  */
+  margin: 0 auto;
+  margin-top: 10rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  background-color: #764af1;
+  padding: 1.5rem 3rem;
+  color: white;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+h2 {
+  text-transform: capitalize;
+  font-size: 2rem;
+}
+
+.second--child {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 1rem;
+}
+
+a {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  text-transform: capitalize;
+  border-radius: 1rem;
+  flex-basis: 50%;
+}
+
+a:first-child {
+  color: white;
+  background-color: #9772fb;
+}
+
+a:last-child {
+  background-color: white;
+}
